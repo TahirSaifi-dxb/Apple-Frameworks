@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7A56D2532C8F2D9A00A1E57B /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A56D2522C8F2D9A00A1E57B /* Framework.swift */; };
+		7A56D2592C8F414C00A1E57B /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A56D2582C8F414C00A1E57B /* FrameworkGridViewModel.swift */; };
+		7A56D25B2C8F49AE00A1E57B /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A56D25A2C8F49AE00A1E57B /* SafariView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7A56D2362C8F2D6F00A1E57B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		7A56D2242C8F2D6D00A1E57B /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A56D2352C8F2D6F00A1E57B /* Apple-FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A56D23F2C8F2D6F00A1E57B /* Apple-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A56D2522C8F2D9A00A1E57B /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		7A56D2582C8F414C00A1E57B /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		7A56D25A2C8F49AE00A1E57B /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,9 @@
 		7A56D21B2C8F2D6D00A1E57B = {
 			isa = PBXGroup;
 			children = (
+				7A56D25A2C8F49AE00A1E57B /* SafariView.swift */,
+				7A56D2582C8F414C00A1E57B /* FrameworkGridViewModel.swift */,
+				7A56D2522C8F2D9A00A1E57B /* Framework.swift */,
 				7A56D2262C8F2D6D00A1E57B /* Apple-Frameworks */,
 				7A56D2382C8F2D6F00A1E57B /* Apple-FrameworksTests */,
 				7A56D2422C8F2D6F00A1E57B /* Apple-FrameworksUITests */,
@@ -236,6 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A56D2532C8F2D9A00A1E57B /* Framework.swift in Sources */,
+				7A56D25B2C8F49AE00A1E57B /* SafariView.swift in Sources */,
+				7A56D2592C8F414C00A1E57B /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
